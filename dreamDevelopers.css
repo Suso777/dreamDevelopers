@@ -91,6 +91,15 @@ body{
 }
 .btn:focus, .btn:hover { transform: translateY(-2px); }
 
+.image-banner {
+  width: 100%;   /* Ajusta el ancho */
+  max-width: 800px; /* Ancho máximo */
+  height: auto; 
+  display: block;  /* Mantiene proporciones */
+  margin: 0 auto; /* Centra la imagen */
+  
+}
+
 /* Secciones */
 .section{
   padding:56px 0;

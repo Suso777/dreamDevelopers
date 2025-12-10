@@ -47,6 +47,90 @@ body{
   display:block;
 }
 
+/* CONTENEDOR PRINCIPAL */
+.main-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+  justify-content: center;
+  align-items: stretch;
+}
+
+/* TARJETA */
+.card {
+  background: rgba(255, 255, 255, 0.08);     /* efecto glass */
+  backdrop-filter: blur(12px);
+  border-radius: 20px;
+  padding: 2rem 1.5rem;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+  transition: all 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+
+  /* Animación suave */
+  transform: translateY(0);
+}
+
+/* EFECTO AL PASAR RATÓN */
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.35);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+/* IMÁGENES */
+.card img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;          /* foto redonda */
+  object-fit: cover;
+  margin-bottom: 1rem;
+  border: 3px solid #00d4ff;   /* borde neón tech */
+  transition: all 0.3s ease;
+}
+
+.card img:hover {
+  transform: scale(1.07);
+  border-color: #7c5cff;
+}
+
+/* TITULOS */
+.card h2 {
+  margin: 0.2rem 0;
+  font-size: 1.4rem;
+  color: #00d4ff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.card h4 {
+  margin: 0.2rem 0 1rem;
+  font-size: 0.9rem;
+  color: #bfbfbf;
+  letter-spacing: 1px;
+}
+
+/* NOMBRE */
+.card p {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+/* ICONOS */
+.card a {
+  color: #00d4ff;
+  text-decoration: none;
+  padding: 0 0.4rem;
+  transition: color 0.3s ease;
+}
+
+.card a:hover {
+  color: #7c5cff;
+}
+
 /* Navegación */
 .main-nav a{
   color:var(--text);

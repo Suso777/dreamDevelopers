@@ -220,15 +220,17 @@ body{
 }
 
 footer {
+    
     background: var(--btn-bg);
-  color:white;
+    color:white;
     text-align: center;
     padding: 60px;
     margin-top: 20px;
+    
 }
 
 .social-link {
-  
+    
     color: #eef2f6; 
     margin: 0 15px;
     font-size: 2rem; /* Tamaño de iconos */

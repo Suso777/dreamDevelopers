@@ -1,7 +1,7 @@
-/* RESET básico */
+
 * { box-sizing: border-box; margin: 0; padding: 0; }
 
-/* Variables simples */
+
 :root{
   --bg:#0f1116;
   --panel:#1a1d25;
@@ -14,7 +14,7 @@
   --text:#eef2f6;
 }
 
-/* Layout base */
+
 body{
   font-family: "Segoe UI", Roboto, Arial, sans-serif;
   background: var(--bg);
@@ -59,7 +59,7 @@ body{
 
 
 .card {
-  background: rgba(255, 255, 255, 0.08);     /* efecto glass */
+  background: rgba(255, 255, 255, 0.08);    
   backdrop-filter: blur(12px);
   border-radius: 20px;
   padding: 2rem 1.5rem;

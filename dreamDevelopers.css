@@ -24,14 +24,14 @@ body{
   line-height:1.5;
 }
 
-/* Contenedor centrado */
+
 .container{
   width: calc(100% - 40px);
   max-width: var(--container-width);
   margin: 0 auto;
 }
 
-/* Header */
+
 .site-header{
   background: transparent;
   padding: 24px 0;
@@ -47,7 +47,7 @@ body{
   display:block;
 }
 
-/* CONTENEDOR PRINCIPAL */
+
 .main-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -57,7 +57,7 @@ body{
   align-items: stretch;
 }
 
-/* TARJETA */
+
 .card {
   background: rgba(255, 255, 255, 0.08);     /* efecto glass */
   backdrop-filter: blur(12px);
@@ -67,26 +67,24 @@ body{
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
   transition: all 0.3s ease;
   border: 1px solid rgba(255, 255, 255, 0.15);
-
-  /* Animación suave */
   transform: translateY(0);
 }
 
-/* EFECTO AL PASAR RATÓN */
+
 .card:hover {
   transform: translateY(-8px);
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.35);
   border: 1px solid rgba(255, 255, 255, 0.25);
 }
 
-/* IMÁGENES */
+
 .card img {
   width: 120px;
   height: 120px;
-  border-radius: 50%;          /* foto redonda */
+  border-radius: 50%;          
   object-fit: cover;
   margin-bottom: 1rem;
-  border: 3px solid #00d4ff;   /* borde neón tech */
+  border: 3px solid #00d4ff;   
   transition: all 0.3s ease;
 }
 
@@ -95,7 +93,7 @@ body{
   border-color: #7c5cff;
 }
 
-/* TITULOS */
+
 .card h2 {
   margin: 0.2rem 0;
   font-size: 1.4rem;
@@ -111,7 +109,7 @@ body{
   letter-spacing: 1px;
 }
 
-/* NOMBRE */
+
 .card p {
   font-size: 1.1rem;
   font-weight: 600;
@@ -119,7 +117,7 @@ body{
   margin-bottom: 1rem;
 }
 
-/* ICONOS */
+
 .card a {
   color: #00d4ff;
   text-decoration: none;
@@ -131,7 +129,7 @@ body{
   color: #7c5cff;
 }
 
-/* Navegación */
+
 .main-nav a{
   color:var(--text);
   text-decoration:none;
@@ -141,7 +139,7 @@ body{
 .main-nav a:focus,
 .main-nav a:hover{ opacity:0.9; }
 
-/* Hero */
+
 .hero{
   padding: 90px 0 120px;
   position:relative;
@@ -162,7 +160,7 @@ body{
   margin-bottom:28px;
 }
 
-/* Botón principal */
+
 .btn{
   display:inline-block;
   padding:12px 28px;
@@ -176,15 +174,15 @@ body{
 .btn:focus, .btn:hover { transform: translateY(-2px); }
 
 .image-banner {
-  width: 100%;   /* Ajusta el ancho */
-  max-width: 800px; /* Ancho máximo */
+  width: 100%;   
+  max-width: 800px; 
   height: auto; 
-  display: block;  /* Mantiene proporciones */
-  margin: 0 auto; /* Centra la imagen */
+  display: block;  
+  margin: 0 auto; 
   
 }
 
-/* Secciones */
+
 .section{
   padding:56px 0;
   text-align:center;
@@ -192,7 +190,7 @@ body{
 .section h2{ margin-bottom:16px; font-size:1.6rem; }
 .section p{ color:var(--muted); max-width:800px; margin: 0 auto; }
 
-/* Lista de servicios */
+
 .services-list{
   list-style:none;
   margin-top:20px;
@@ -210,7 +208,7 @@ body{
   color:var(--muted);
 }
 
-/* Footer */
+
 .site-footer{
   padding:28px 0;
   text-align:center;
@@ -233,18 +231,18 @@ footer {
     
     color: #eef2f6; 
     margin: 0 15px;
-    font-size: 2rem; /* Tamaño de iconos */
+    font-size: 2rem; 
     transition: 0.3s;
 }
 
 .social-link:hover {
     
-    color: #0f1116; /* Cambio de color al pasar el mouse */
+    color: #0f1116; 
 
     padding: 10px;  
 }
 
-/* Decoración de esquina (solo estética) */
+
 .hero-decor{
   position:absolute;
   right: 4%;
@@ -259,7 +257,7 @@ footer {
   opacity:0.9;
 }
 
-/* Responsive */
+
 @media (max-width:700px){
   .header-inner{ flex-direction:column; gap:12px; align-items:center; }
   .main-nav{ display:flex; gap:10px; flex-wrap:wrap; justify-content:center; }
